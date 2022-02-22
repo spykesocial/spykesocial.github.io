@@ -8,16 +8,17 @@ import { ComingSoonFontStyled, ComingSoonStyled } from "./styledComponents/Comin
 function Logo(props) {
     return (
         <LogoStyled>
+
             <LogoContainer>
                 <Image src="/spyke.png" width="800vw" height="800vh"/>
-
             </LogoContainer>
+
             <ComingSoonStyled>
                 <ComingSoonFontStyled>
                     <h1>Coming Soon · 2022</h1> 
-
                 </ComingSoonFontStyled>
             </ComingSoonStyled>
+
         </LogoStyled>
     );
 }
