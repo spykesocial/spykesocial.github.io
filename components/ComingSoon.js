@@ -4,7 +4,6 @@ function ComingSoon(props) {
     return (
         <div>
         </div>
-
     );
 }
 
