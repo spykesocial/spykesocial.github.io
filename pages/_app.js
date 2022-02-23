@@ -10,11 +10,11 @@ function MyApp({ Component, pageProps }) {
     <Layout>
       <NextSeo 
         title="Spyke 🗿 Coming Soon"
-        description="Spyke Social — Find your Klan!⁂"
+        description="Spyke Social — Find your Klan!"
         openGraph={{
             url: 'https://spy.ke',
             title: 'Spyke 🗿 Coming Soon',
-            description: 'Spyke Social — Find your Klan!⁂',
+            description: 'Spyke Social — Find your Klan!',
             images: [
                 { 
                     url: 'https://spy.ke/spyke.png',
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
                     type: 'image/png',
                 }
             ],
-            site_name: 'Spyke 🗿 Home'
+            site_name: 'Spyke Home'
         }}
         twitter={{
             handle: '@spykesocial',
