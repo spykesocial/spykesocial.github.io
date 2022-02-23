@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 > NEED to run the command `node_modules/next/dist/bin/next export -o docs` everytime before pushing since we need the pages to be compiled into static HTML.
+> Also, remember to run the command `touch docs/.nojekyll` since GitHub's preference towards Jekyll for static builds is counterproductive for us.
 
 ## Getting Started
 
