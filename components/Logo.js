@@ -10,7 +10,7 @@ function Logo(props) {
         <LogoStyled>
 
             <LogoContainer>
-                <Image src="/spyke.png" width="800vw" height="800vh"/>
+                <Image src="/spyke.png" width="775vw" height="420vh"/>
             </LogoContainer>
 
             <ComingSoonStyled>
