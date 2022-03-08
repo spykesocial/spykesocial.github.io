@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <FooterStyled>
       <FooterTextStyled>
-        <p> &copy; Spyke Social Private Limited 2022. All Rights Reserved.</p>
+        &copy; Spyke Social Private Limited 2022. All Rights Reserved.
       </FooterTextStyled>
     </FooterStyled>
   );
