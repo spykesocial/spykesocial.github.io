@@ -11,7 +11,6 @@ align-items: center;
 
 export const FooterTextStyled = styled.div`
 color: #fff;
-
+margin: 10px;
+font-size: 1rem;
 `
-
-

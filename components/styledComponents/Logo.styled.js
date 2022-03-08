@@ -1,12 +1,11 @@
 import styled from "styled-components"
 
 export const LogoStyled = styled.div`
-
-    height: 94vh;
-    display: flex;
-    background: #101010;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
+background: #101010;
+min-height: 500px;
+height: 94vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
 `
