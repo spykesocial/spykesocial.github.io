@@ -31,7 +31,7 @@ jobs:
       run: npm ci
     
     - name: Build and export website
-      run: npm run build --if-present && npm run export && touch ./docs/.nojekyll && cat > spy.ke
+      run: npm run build --if-present && npm run export && touch ./out/.nojekyll && echo spy.ke > ./out/CNAME
     
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
