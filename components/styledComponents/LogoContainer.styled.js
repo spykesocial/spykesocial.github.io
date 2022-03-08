@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
+// Removed height attribute, so that browser automatically resizes the image to fit the container
 export const LogoContainer = styled.div`
 background: #101010;
-height: 30vh;
 width: 30vw;
-min-width: 300px;
 display: flex;
 justify-content: center;
 align-items: center;
