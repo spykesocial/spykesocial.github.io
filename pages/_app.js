@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
             description: 'Spyke Social — Find your Klan!',
             images: [
                 { 
-                    url: 'https://spy.ke/spyke.png',
+                    url: 'https://spy.ke/spyke-full.png',
                     alt: 'Spyke Social Private Limited',
                     type: 'image/png',
                 }
