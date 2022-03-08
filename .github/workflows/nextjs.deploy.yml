@@ -31,10 +31,10 @@ jobs:
       run: npm ci
     
     - name: Build and export website
-      run: npm run build --if-present && npm run export -o docs && touch ./docs/.nojekyll && cat > spy.ke
+      run: npm run build --if-present && npm run export && touch ./docs/.nojekyll && cat > spy.ke
     
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages # The branch the action should deploy to.
-        folder: docs # The folder the action should deploy.
+        folder: out # The folder the action should deploy.
