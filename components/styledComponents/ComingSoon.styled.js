@@ -1,14 +1,28 @@
 import styled from "styled-components"
+import {breakpoint} from 'styled-components-breakpoint';
 
 
 export const ComingSoonStyled = styled.div`
-# width: 12vw;
-height: 3vh;
-margin: 40px;
-color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
 `
 
 export const ComingSoonFontStyled = styled.h1`
-font-size: 0.6rem;
 color: #808080;
+
+${breakpoint('mobile')`
+    font-size: 0.5rem;
+  `}
+
+${breakpoint('tablet')`
+    font-size: 0.6rem;
+  `}
+
+${breakpoint('desktop')`
+    font-size: 0.6rem;
+  `}
+
+
 `
