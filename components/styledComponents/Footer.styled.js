@@ -15,6 +15,7 @@ align-items: center;
 export const FooterTextStyled = styled.div`
 color: #fff;
 margin: 10px;
+text-align: center;
 
 
 ${breakpoint('mobile')`
