@@ -39,8 +39,6 @@ function MyApp({ Component, pageProps }) {
       <Script 
         strategy='lazyOnload' 
         src={`https://www.googletagmanager.com/gtag/js?id=G-7Q23H3LEC3`}/>
-
-
       <Script strategy='lazyOnload' >
         {
           `window.dataLayer = window.dataLayer || [];
