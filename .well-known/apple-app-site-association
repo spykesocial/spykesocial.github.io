@@ -4,17 +4,17 @@
     "details": [
       {
       "appID": "JCUD4D83CR.com.spykesocial.spykefrontend",
-      "paths": ["/p/*"],
+      "paths": ["/p/*"]
 
+      },
+
+      {
       "appIDs": ["JCUD4D83CR.com.spykesocial.spykefrontend"],
       "components": [
         {
           "/": "/p/*"
         }
       ]
-      
-
-    
     }
   
   ]
