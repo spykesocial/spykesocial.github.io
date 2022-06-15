@@ -1,15 +1,15 @@
 {
   "applinks": {
-    "apps": ["JCUD4D83CR.com.spykesocial.spykefrontend"],
-    "details": [{
+    "apps": [],
+    "details": [
+      {
       "appID": "JCUD4D83CR.com.spykesocial.spykefrontend",
       "paths": ["/p/*"],
 
       "appIDs": ["JCUD4D83CR.com.spykesocial.spykefrontend"],
       "components": [
         {
-          "/": "/p/*",
-          "comment": "Matches any URL whose path starts with /p/"
+          "/": "/p/*"
         }
       ]
       
