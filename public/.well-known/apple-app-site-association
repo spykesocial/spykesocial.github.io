@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
            {
-             "appIDs": ["com.spykesocial.spykefrontend"],
+             "appIDs": ["JCUD4D83CR.com.spykesocial.spykefrontend"],
              "components": [
                {
                   "#": "no_universal_links",
@@ -19,3 +19,4 @@
    }
 
 }
+
