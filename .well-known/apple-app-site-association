@@ -1,9 +1,21 @@
 {
   "applinks": {
-    "apps": [], // This is usually left empty, but still must be included
-    "details": [{
-      "appID": "com.spykesocial.spykefrontend",
-      "paths": ["/p/*"]
-    }]
-  }
+      "details": [
+           {
+             "appIDs": ["com.spykesocial.spykefrontend"],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+               },
+               {
+                  "/": "/p/*",
+                  "comment": "Matches any URL whose path starts with /p/"
+               }
+             ]
+           }
+       ]
+   }
+
 }
