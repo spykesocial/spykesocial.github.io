@@ -1,3 +1,6 @@
 {
-    "disableVidPost":false
+    "disable_video_posts": false,
+    "disable_video_autoplay": false,
+    "disable_reply_threshold": 100,
+    "comment_depth_threshold": 10
 }
